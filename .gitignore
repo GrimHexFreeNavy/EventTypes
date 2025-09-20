@@ -1,0 +1,27 @@
+# Ignore everything by default
+*
+
+# Allow Markdown files in Events and Template folders
+!Events/
+!Events/**/*.md
+!Template/
+!Template/**/*.md
+
+# Allow the .gitignore file itself
+!.gitignore
+
+# Ignore common IDE/editor directories
+.vscode/
+.idea/
+*.iml
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Ignore OS junk files
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Desktop.ini
